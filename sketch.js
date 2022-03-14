@@ -97,7 +97,9 @@ function draw() {
  background("white");
 
 
- //frameRate(61);
+ frameRate(1);
+
+ drawSprites();
  
  
 
@@ -273,9 +275,6 @@ points();
  obstacles();
 
 
- drawSprites();
-  
- 
  textSize(20);
 
  stroke("white");
