@@ -97,8 +97,7 @@ function draw() {
 
  background("white");
 
-console.log(x);
- 
+
  frameRate(60);
 
  drawSprites();
@@ -169,7 +168,7 @@ obstacleGroup.setVelocityXEach(0);
     remainingFuel = remainingFuel - int(x);
 
 
-    x+=0.0001;
+    x+=0.01;
 
     
 points();
