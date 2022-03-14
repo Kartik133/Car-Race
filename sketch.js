@@ -164,7 +164,7 @@ obstacleGroup.setVelocityXEach(0);
    
   
 
-    remainingFuel = remainingFuel - Math.round(getFrameRate()/300);
+    remainingFuel = remainingFuel - Math.round(frameCount/300);
 
 
     
