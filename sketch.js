@@ -34,6 +34,7 @@ var button;
 
 
 
+var x = 0;
 
 function preload(){
 
@@ -164,8 +165,10 @@ obstacleGroup.setVelocityXEach(0);
    
   
 
-    remainingFuel = remainingFuel - Math.round(frameCount/300);
+    remainingFuel = remainingFuel - int(x);
 
+
+    x-=0.1;
 
     
 points();
@@ -207,6 +210,7 @@ points();
     }
  
  }
+
 
  if(gameState===END) {
 
