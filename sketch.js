@@ -97,7 +97,7 @@ function draw() {
  background("white");
 
 
- frameRate(61);
+ //frameRate(61);
  
  
 
