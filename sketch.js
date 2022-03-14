@@ -97,7 +97,8 @@ function draw() {
 
  background("white");
 
-
+console.log(x);
+ 
  frameRate(60);
 
  drawSprites();
