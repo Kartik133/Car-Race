@@ -168,7 +168,7 @@ obstacleGroup.setVelocityXEach(0);
     remainingFuel = remainingFuel - int(x);
 
 
-    x-=0.1;
+    x+=0.0001;
 
     
 points();
